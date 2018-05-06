@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Dwayne M. Hinds Bio</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script type="text/javascript" src="./assets/javascript/script.js"></script>
+    <!-- Single Page Style using javascript to hide subpages-->
+    
+
+</head>
+
+<body onload="myFunction1()"></body>
+
+    <h1 class="largeHeader1">Dwayne M. Hinds</h1>
+    <div class="navBar">
+        <ul>
+            <li class="navBarItem1"><a onclick="aboutFunction()" href="#">About</a></li>
+            <!--li class="headerDivider1"></li-->
+            <li class="navBarItem2"><a onclick="portFunction()" href="#">Portfolio</a></li>
+            <!--li class="headerDivider1"></li-->
+            <li class="navBarItem3"><a onclick="contactFunction()" href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div id="abt" class="about">
+            <div class="largeHeader2">About Me</div>
+            <hr/>
+            <img id ="image1" src="http://via.placeholder.com/150x150">
+            <p class="aboutParagraph">Senior architect with 17 years experience in software developement, programming analyst and application design.</p>
+        </div>
+        <div id="port" class="portfolio">
+            <div class="largeHeader2">Portfolio</div>
+            <hr/>
+            <img id="image1" src="http://via.placeholder.com/150x150">
+            <img id="image1" src="http://via.placeholder.com/150x150">
+            <img id="image1" src="http://via.placeholder.com/150x150">
+            <img id="image1" src="http://via.placeholder.com/150x150">
+            <img id="image1" src="http://via.placeholder.com/150x150">
+            <img id="image1" src="http://via.placeholder.com/150x150">
+            </div>
+        <div id="contact" class="contacts">
+            <div class="largeHeader2">Contact</div>
+            <hr/>
+                    <form action="/action_page.php">
+                        <label id ="nameLabel" for="fname">Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label id ="emailLabel" for="email">Email</label>
+                        <input type="text" id="email" name="emailaddress" placeholder="example@gmail.com">
+                    
+                        <label id ="messageLabel" for="subject">Message</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                    </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
